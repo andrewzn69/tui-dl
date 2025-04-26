@@ -1,12 +1,12 @@
 import React from 'react';
 import { Box, Text } from 'ink';
 
-interface SidebarProps {
+interface DownloadDetailsProps {
 	height: number;
 	width: number;
 }
 
-export const Sidebar: React.FC<SidebarProps> = ({ height, width }) => {
+export const DownloadDetails: React.FC<DownloadDetailsProps> = ({ height, width }) => {
 	return (
 		<Box
 			borderStyle='round'
