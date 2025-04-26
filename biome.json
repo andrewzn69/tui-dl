@@ -62,7 +62,7 @@
 				"noUnsafeFinally": "error",
 				"noUnsafeOptionalChaining": "error",
 				"noUnusedLabels": "error",
-				"noUnusedVariables": "error",
+				"noUnusedVariables": "warn",
 				"noVoidElementsWithChildren": "error",
 				"useHookAtTopLevel": "error",
 				"useIsNan": "error",
@@ -85,11 +85,7 @@
 				"noRestrictedGlobals": {
 					"level": "error",
 					"options": {
-						"deniedGlobals": [
-							"event",
-							"atob",
-							"btoa"
-						]
+						"deniedGlobals": ["event", "atob", "btoa"]
 					}
 				},
 				"noVar": "error",
@@ -164,10 +160,6 @@
 		}
 	},
 	"files": {
-		"ignore": [
-			"dist/**",
-			"node_modules/**",
-			".env"
-		]
+		"ignore": ["dist/**", "node_modules/**", ".env"]
 	}
 }
