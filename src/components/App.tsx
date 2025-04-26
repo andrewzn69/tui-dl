@@ -3,7 +3,7 @@ import { Box, Text, useApp, useInput, useStdin } from 'ink';
 import { Footer } from './ui/Footer.js';
 import { useDownloadManager } from '../hooks/useDownloadManager.js';
 import { SpeedGraph } from './SpeedGraph.js';
-import { DownloadRow } from './DownloadRow.js';
+import { DownloadRow } from './downloads/DownloadRow.js';
 import { useTerminalSize } from '../hooks/useTerminalSize.js';
 
 interface AppProps {
