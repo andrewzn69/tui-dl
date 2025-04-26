@@ -175,4 +175,4 @@ dist
 .DS_Store
 
 # test downloads folder
-downloads/
+/downloads/
