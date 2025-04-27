@@ -17,7 +17,7 @@ export const DownloadRow: React.FC<DownloadRowProps> = ({ height, width, downloa
 
 	return (
 		<Box flexDirection='row' height={height}>
-			<Box width={listWidth} marginRight={2}>
+			<Box width={listWidth} marginRight={1}>
 				<DownloadList
 					downloads={downloads}
 					selectedIndex={selectedIndex}
